@@ -1,0 +1,16 @@
+# Ignorar archivos temporales y de respaldo
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Ignorar paquetes descargados automáticamente (ELPA/MELPA)
+/elpa/
+/.local/
+/straight/
+
+# Ignorar carpetas de caché de herramientas
+/.cache/
+/url/
+/auto-save-list/
